@@ -1,0 +1,43 @@
+.row {
+    margin-left: 20px;
+    object-fit: contain;
+}
+
+.rowPosters {
+    /* display: flex; */
+    display: flex;
+    overflow-y: hidden;
+    overflow-x: scroll;
+    /* adds a scroll to the bottom of the pictures */
+    padding: 20px;
+}
+
+.rowPosters::-webkit-scrollbar {
+    display: none;
+    /* removes the actual scroll bar */
+}
+
+.rowPoster {
+    object-fit: contain;
+    width: 100%;
+    max-height: 100px;
+    margin-right: 10px;
+    transition: transform 450ms; 
+    /* transition -- if it ever changes size, this will add a transition */
+    
+}
+
+.rowPoster:hover {
+    transform: scale(1.08);
+    /* this will puff the picture up with a slight delay */
+
+}
+
+.rowPosterLarge {
+    max-height: 250px;
+}
+
+.rowPosterLarge:hover {
+    transform: scale(1.10);
+    /* this will puff the picture up with a slight delay */ 
+}
