@@ -48,22 +48,6 @@ const Row = ({ title, fetchUrl, isLargeRow }) => {
         }
     }
 
-    // const handleClick = async (movie) => {
-    //     if (trailerUrl) {
-    //       setTrailerUrl("");
-    //     } else {
-    //       let trailerurl = await axios.get(
-    //         `https://www.youtube.com/watch?v=HhwCqhQo33g`
-    //       );
-    //       console.log(movie)
-    //       setTrailerUrl(trailerurl.data.results[0]?.key);
-    //     }
-    //   };
-
-    
-
-
-      
     return (
         <div className='row'>
             <h2>{title}</h2>
@@ -90,3 +74,9 @@ const Row = ({ title, fetchUrl, isLargeRow }) => {
 }
 
 export default Row
+    
+
+    
+
+
+      

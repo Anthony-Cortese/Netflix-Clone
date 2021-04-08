@@ -1,3 +1,4 @@
+//These are notes for myself, these are different tests I ran for myself.
 import React, {useState, useEffect} from 'react'
 import axios from './axios'
 import "./Row.css"

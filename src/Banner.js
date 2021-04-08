@@ -34,44 +34,42 @@ const Banner = () => {
     return (
 
         <header className="banner"
-        style={{
+            style={{
             backgroundSize: 'cover',
             backgroundImage: `url("https://image.tmdb.org/t/p/original${movie?.backdrop_path}")`,
             backgroundPosition: 'center center'
         }}
         > 
-        
-
-            {/* header needs a background image */}
-            
-            
-        {/* <div className='newDiv'> */}
-            {/* <div className='smaller'> */}
-
             <div className="contents">
-              <h1 className='title'>
-               {movie?.title || movie?.name || movie?.original_name}
-              </h1>
+                <h1 className='title'>
+                {movie?.title || movie?.name || movie?.original_name}
+                </h1>
                 
                 
                 <h2 className='bannerDescription'>
                 {truncate(movie?.overview, 150)}
                 </h2>
             
-           <div className='bannerButtons'>
-                <button className="bannerButton1">▶︎ Play</button>
-                <button className="bannerButton">ℹ︎ More Info</button>
+                <div className='bannerButtons'>
+                    <button className="bannerButton1">▶︎ Play</button>
+                    <button className="bannerButton">ℹ︎ More Info</button>
+                </div>
             </div>
+                <div className="bannerFadeBottom"></div>
+        </header>
                 
              
              
-            </div>
-            <div className="bannerFadeBottom"></div>
-            </header>
             
             
     
     )
 }
+        
+
+            
+            
+        
+
 
 export default Banner

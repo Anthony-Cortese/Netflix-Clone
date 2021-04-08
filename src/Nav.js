@@ -26,13 +26,13 @@ const Nav = () => {
             
             />
             <div id='navigation'>
-              <ul className='left'>
-              <li class='navbar'><a href="#">Home</a></li>
-              <li class='navbar'><a href="#">TV Shows</a></li>
-              <li class='navbar'><a href="#">Movies</a></li>
-              <li class='navbar'><a href="#">New & Popular</a></li>
-              <li class='navbar'><a href="#">My List</a></li>
-              </ul>  
+                <ul className='left'>
+                <li class='navbar'><a href="#">Home</a></li>
+                <li class='navbar'><a href="#">TV Shows</a></li>
+                <li class='navbar'><a href="#">Movies</a></li>
+                <li class='navbar'><a href="#">New & Popular</a></li>
+                <li class='navbar'><a href="#">My List</a></li>
+                </ul>  
             </div>
 
             <div className='browse'>
@@ -40,27 +40,27 @@ const Nav = () => {
             </div>
             
             <div id='secondary'>
-                        <ul className="right">
+                <ul className="right">
+                    <li class='second'><a href="#"><BsFillBellFill /></a></li>
+                    <li class='second'><a href="#"><GiPresent /></a></li>
+                    <li class='second1'><a href="#">DVD</a></li>
+                    <li class='second2'><a href="#">KIDS</a></li>
+                    <li class='second'><a href="#"><FaSearch /></a></li>
+                </ul>
+            </div>       
 
-                        <li class='second'><a href="#"><BsFillBellFill /></a></li>
-                        <li class='second'><a href="#"><GiPresent /></a></li>
-                        <li class='second1'><a href="#">DVD</a></li>
-                        <li class='second2'><a href="#">KIDS</a></li>
-                        <li class='second'><a href="#"><FaSearch /></a></li>
-                        </ul>
 
-                        </div>
             <img 
             className="smileLogo"
             src="https://i.ibb.co/SrtNgXH/30db479e1558c3ed46b4ed23b3cd98ae.png"
             alt="Smile Logo"
             
             />
-
-            
-            
         </div>
     )
 }
-
 export default Nav
+
+            
+            
+
